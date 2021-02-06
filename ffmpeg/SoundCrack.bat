@@ -1,0 +1,1 @@
+ffmpeg -i %1 -af volume=100 cracked%~n1.mp3
