@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vn -acodec pcm_s16le %~n1.wav
