@@ -1,0 +1,1 @@
+ffmpeg -i generated.mp4 -i bgm.wav -c:v copy -c:a aac -map 0:v:0 -map 1:a:0 dame_da_ne.mp4
