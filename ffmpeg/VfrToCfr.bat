@@ -17,7 +17,7 @@ rem 遅延環境変数を設定
 setlocal ENABLEDELAYEDEXPANSION
 
 rem 作業用フォルダ
-md %WORK_DIR%
+mkdir %WORK_DIR%
 cd %WORK_DIR%
 
 for %%a in (%*) do (
@@ -40,7 +40,7 @@ for %%a in (%*) do (
 )
 
 cd ..
-rd %WORK_DIR%
+rmdir %WORK_DIR%
 
 pause
 
